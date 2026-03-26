@@ -1,0 +1,20 @@
+schema: spec-driven
+
+context: |
+  Project: Todo HTML App v3 — a minimal, single-file todo list application
+  Tech stack: Vanilla HTML, CSS, JavaScript (no build tools, no dependencies)
+  Architecture: Everything in one index.html with inline <style> and <script>
+  Conventions: CSS custom properties for theming, semantic HTML, ES6+, localStorage for persistence
+  Testing: Manual browser testing, no test framework
+
+rules:
+  proposal:
+    - Keep concise (1-2 pages)
+  specs:
+    - Use Given/When/Then format for scenarios
+  design:
+    - Single-file HTML architecture, no alternatives needed
+  tasks:
+    - Each task modifies index.html only
+    - Each task should be independently verifiable
+    - Break into small, atomic steps
